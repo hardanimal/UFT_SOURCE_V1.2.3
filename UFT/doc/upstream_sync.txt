@@ -1,0 +1,21 @@
+# check remote stream
+	
+	git remote -v
+
+# add upstream
+
+	git remote add <stream_name> https://github.com/xxx/xxx.git
+
+# fetch upstream to a new branch
+
+	git fetch <stream_name>
+
+# the new branch will be created at <stream_name>/master
+
+# checkout local master branch 
+	
+	git checkout master
+
+# merge the upstream master
+
+	git merge <stream_name>/master
