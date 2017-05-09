@@ -424,7 +424,7 @@ class Ui_Form(object):
         self.search_lineEdit.setPlaceholderText(_translate("Form", "search by serial number", None))
         self.search_pushButton.setText(_translate("Form", "Search", None))
         self.tabWidget.setTabText(self.tabWidget.indexOf(self.tab), _translate("Form", "test log", None))
-        self.title_label.setText(_translate("Form", "AGIGA CORONADO PGEM UFT V1.2.3", None))
+        self.title_label.setText(_translate("Form", "AGIGA CORONADO PGEM UFT V1.2.4", None))
         self.groupBox_1.setTitle(_translate("Form", "Slot #1", None))
         self.sn_lineEdit_1.setPlaceholderText(_translate("Form", "Serial Number", None))
         self.CablelineEdit_1.setPlaceholderText(_translate("Form", "Cable_SN_1", None))
